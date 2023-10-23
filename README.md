@@ -12,11 +12,11 @@
 - Frame com localização via google maps.
 
 
-![home](../../vite-project/public/image/readme.png)
+![home](./vite-project/public/image/readme.png)
 
 # Pessoa desenvolvedora
 
-<img style="width:200px" src="../../vite-project/public/image/PessoaAutora.png" alt="Rafael, pessoa autora">
+<img style="width:200px" src="./vite-project/public/image/PessoaAutora.png" alt="Rafael, pessoa autora">
 
 ### Rafael Lopes Nogueira
 
