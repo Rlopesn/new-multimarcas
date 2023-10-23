@@ -5,7 +5,6 @@ export const Container = styled.div`
 @media screen and (max-width: 768px) {
     max-width: 100vw;
     height: 100vh;
-    //background-image: url('../src/assets/fundo.png');
     background-size: cover; 
     background-repeat: no-repeat;
     }
@@ -30,11 +29,21 @@ export const Functionality = styled.div`
     gap: 2vh;
     flex-direction: column;
     button{
+        color:#d2ab66 ;
+        filter: drop-shadow(0 0 20px rgb(52,60,68));
+        border-radius: 35px 35px;
+        font-size: 1rem;
+        font-weight: underline;
         width: 75vw;
         height: 5vh;
         border: none;
         letter-spacing: 1vw;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        transform: translateY(-0.2em);
+        transition: transform 0.1s ease;
+        opacity: 0.9;
+        &:active{
+            transform: translateY(0);
+        }
     }
     }
 `
@@ -68,6 +77,7 @@ const blink = keyframes`
 export const Time = styled.div`
     width: 75vw;
     text-align: center;
+    
     @media screen and (max-width: 768px) {
         background-color: hsla(210, 10%, 40%, 0.5); 
         border-radius: 35px 0;
