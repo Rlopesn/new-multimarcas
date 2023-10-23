@@ -5,7 +5,7 @@ export const Container = styled.div`
 @media screen and (max-width: 768px) {
     max-width: 100vw;
     height: 100vh;
-    background-image: url('../fundo.png');
+    //background-image: url('../src/assets/fundo.png');
     background-size: cover; 
     background-repeat: no-repeat;
     }

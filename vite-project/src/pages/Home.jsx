@@ -1,6 +1,7 @@
 import { Header } from "../components/Header";
 import * as s from "./HomeStyle";
 import logo2 from "../assets/logo2.png";
+import fundo from "../assets/fundo.png"
 
 export function Home() {
 
@@ -19,7 +20,7 @@ export function Home() {
         horaAtual < horarioDeFuncionamento.horaFechamento;
 
     const avisoLoja = lojaAberta ? "Loja aberta" : "Loja fechada";
-    console.log(avisoLoja);
+
     const goToWhatsapp = () => {
         window.location.href = 'https://wa.me/5562983318990';
     };
@@ -29,7 +30,7 @@ export function Home() {
     };
 
     return (
-        <s.Container>
+        <s.Container style={{ backgroundImage: `url(${fundo})` }}>
             <Header/>
             <s.Box>
                 <img src={logo2} alt="Logo" />
@@ -57,6 +58,6 @@ export function Home() {
                     <h5>Anápolis - GO</h5>
                 </s.Address>
             </s.Box>
-        </s.Container>
+        </s.Container >
     );
 }
