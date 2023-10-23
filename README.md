@@ -7,7 +7,7 @@
 [Repositório](https://github.com/Rlopesn/new-multimarcas)
 
 ### Detalhes
-- Botoões para Whatsapp e instagram.
+- Botões para Whatsapp e instagram.
 - Informativo com horário de funcionamento e se loja aberta ou fechada.
 - Frame com localização via google maps.
 
