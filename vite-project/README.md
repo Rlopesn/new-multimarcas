@@ -4,7 +4,7 @@
 
 [Clique para conferir o site!](https://mais-informacoes.surge.sh/)
 
-[Repositório back-end](https://github.com/Rlopesn/new-multimarcas)
+[Repositório](https://github.com/Rlopesn/new-multimarcas)
 
 ### Detalhes
 - Botoões para Whatsapp e instagram.
