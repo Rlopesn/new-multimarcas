@@ -1,8 +1,24 @@
-# React + Vite
+# Projeto de link com utilidades para instagram.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Disponível apenas para visualização em dispositivos mobile.
 
-Currently, two official plugins are available:
+[Clique para conferir o site!](https://mais-informacoes.surge.sh/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Repositório back-end](https://github.com/Rlopesn/new-multimarcas)
+
+### Detalhes
+- Botoões para Whatsapp e instagram.
+- Informativo com horário de funcionamento e se loja aberta ou fechada.
+- Frame com localização via google maps.
+
+
+![home](../vite-project/public/image/readme.png)
+
+# Pessoa desenvolvedora
+
+<img style="width:200px" src="../vite-project/public/image/PessoaAutora.png" alt="Rafael, pessoa autora">
+
+### Rafael Lopes Nogueira
+
+<a href="https://www.linkedin.com/in/rafaellopesn/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+
