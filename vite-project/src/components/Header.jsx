@@ -1,5 +1,5 @@
 import * as s from "./HeaderStyle";
-import logo from "../../src/assets/logo.png"
+import logo from "../../public/image/logo.png"
 
 export function Header() {
     return (

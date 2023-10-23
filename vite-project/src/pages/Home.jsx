@@ -1,7 +1,8 @@
 import { Header } from "../components/Header";
 import * as s from "./HomeStyle";
-import logo2 from "../assets/logo2.png";
-import fundo from "../assets/fundo.png"
+import logo2 from "../../public/image/logo2.png";
+import background from "../../public/image/background.png"
+import backgroundButton from "../../public/image/backgroundButton.png"
 
 export function Home() {
 
@@ -30,13 +31,13 @@ export function Home() {
     };
 
     return (
-        <s.Container style={{ backgroundImage: `url(${fundo})` }}>
+        <s.Container style={{ backgroundImage: `url(${background})` }}>
             <Header/>
             <s.Box>
                 <img src={logo2} alt="Logo" />
                 <s.Functionality>
-                    <button onClick={goToWhatsapp}>Whatsapp</button>
-                    <button onClick={goToInstagram}>Instagram</button>
+                    <button onClick={goToWhatsapp} style={{ backgroundImage: `url(${backgroundButton})` }}>Whatsapp</button>
+                    <button onClick={goToInstagram} style={{ backgroundImage: `url(${backgroundButton})` }}>Instagram</button>
                 </s.Functionality>
                 <s.Time lojaAberta={lojaAberta}>
                     <h3>Horário de funcionamento:</h3>
